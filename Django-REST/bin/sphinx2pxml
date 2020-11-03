@@ -1,0 +1,16 @@
+#!/Users/mikisaito/react-doc/django-react-app/Django-REST/bin/python3
+""" Convert single Sphinx ReST document to Pseudo XML
+
+Example:
+
+    sphinx2pxml example.rst
+
+Write Pseudo XML to stdout as UTF-8.
+"""
+# vim: ft=python
+
+from nb2plots.commands import do_main
+
+
+if __name__ == '__main__':
+    do_main("Convert Sphinx ReST file to Pseudo XML", 'pseudoxml')
