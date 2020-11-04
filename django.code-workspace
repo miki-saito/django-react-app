@@ -18,5 +18,19 @@
         "console": "integratedTerminal"
       }
     ]
+  },
+  "settings": {
+    "bracketPairColorizer.activeScopeCSS": [
+      "borderStyle : solid",
+      "borderWidth : 1px",
+      "borderColor : {color}; opacity: 0.5"
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
   }
+  // {
+  // // "python.pythonPath": "${workspaceFolder}/Django-REST/bin/python",
+  // "python.linting.pylintEnabled": false,
+  // "python.linting.flake8Enabled": true
+  // },
 }

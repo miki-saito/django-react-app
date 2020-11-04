@@ -8,7 +8,8 @@
       "name": "Python: Django",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/DeviceListApi/manage.py",
+      // "program": "${workspaceFolder}/DeviceListApi/manage.py",
+      "program": "${workspaceFolder}/drf-api/manage.py",
       "args": ["runserver"],
       "django": true
     }

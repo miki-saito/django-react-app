@@ -1,0 +1,8 @@
+source Django-REST/bin/activate
+cd drf-api
+
+ python manage.py makemigrations
+ python manage.py migrate
+
+
+ pip install django-cors-headers

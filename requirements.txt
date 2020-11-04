@@ -11,6 +11,7 @@ dataclasses; python_version < "3.7"
 
 Django==3.0.4
 djangorestframework==3.11.0
+django-cors-headers
 
 docopt
 docutils
