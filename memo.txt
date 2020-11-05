@@ -1,8 +1,46 @@
+//Django起動
 source Django-REST/bin/activate
 cd drf-api
 
- python manage.py makemigrations
- python manage.py migrate
+http://127.0.0.1:8000/
+admin/
+api/
+api/tasks/
+auth/
+
+python manage.py makemigrations
+python manage.py migrate
+
+//Django run server
+左側△カブトムシマークで起動
+
+//Django admin superUser
+name: test
+password : testTEST
+
+//React起動
+cd react-basic-drf
+yarn start
 
 
- pip install django-cors-headers
+//git関連
+git checkout -b <Next Branch name>
+
+git add .
+git commit -m  “メッセージ”
+git push -u origin HEAD
+
+
+※ReactおよびDjango両方起動する際は、VSCodeのワークスペースをそれぞれ開くこと。
+react.code-workspace
+django.code-workspace
+
+
+参照
+https://www.postman.com/
+https://bewisse.com/modheader/
+https://cdnjs.com/libraries/font-awesome
+
+学習コンテンツ
+[基礎編]React Hooks + Django REST Framework API でフルスタックWeb開発
+https://www.udemy.com/share/1037FyAkcfcFxSQX0=/
